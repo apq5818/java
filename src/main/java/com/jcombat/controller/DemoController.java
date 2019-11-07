@@ -41,12 +41,12 @@ public class DemoController {
 			return "Errorpage";
 	}
 	
-	/*
-	@RequestMapping(value = "/logincheck", method = RequestMethod.GET)
+	
+	@RequestMapping(value = "/logincheck1", method = RequestMethod.GET)
     public String authenticateUser(@RequestParam("username") String username, @RequestParam("password") String password ,Model model) {
         System.out.println("coming in controller    " +username +" : "+ password);  
         model.addAttribute("message", "Hello Spring MVC Framework!");
         return "success";
     }
-    */
+    
 }
